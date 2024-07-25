@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer utilities{
+  .figtree-500 {
+    font-family: "Figtree", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+  }
+  
+  .figtree-800 {
+    font-family: "Figtree", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 800;
+    font-style: normal;
+  }
+  
+  .ftext-yellow {
+    color: hsl(47, 88%, 63%);
+  }
+  
+  .fbg-yellow{
+    background-color: hsl(47, 88%, 63%);
+  }
+  
+  .ftext-white {
+    color: hsl(0, 0%, 100%);
+  }
+  
+  .fbg-white{
+    background-color: hsl(0, 0%, 100%);
+  }
+  
+  .ftext-gray-500{
+    color: hsl(0, 0%, 42%);
+  }
+  .ftext-gray-950{
+    color: hsl(0, 0%, 7%);
+  }
+  
+  .shadow-card{
+    box-shadow: 10px 10px 0px black;
+  }
+
+  .hover-text{
+    color: hsl(47, 88%, 63%);
+    cursor: pointer;
+  }
+
+  .phone{
+    @media (max-width: 375px)  {}
+  }
+  .pc{
+    @media (max-width: 1440px) {}
+  }
+}
+
+
+
+body p{
+  font-size: 16px;
+  
+}
+
